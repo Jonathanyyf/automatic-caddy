@@ -14,7 +14,7 @@ fi
 wget -O /var/tmp/caddy.tar.gz "https://caddyserver.com/download/linux/amd64?license=personal&telemetry=off"
 
 # tar decompress 'caddy' only to '/usr/local/bin/'
-tar xvf /var/tmp/caddy.tar.gz caddy -C /usr/local/bin/
+tar xvf /var/tmp/caddy.tar.gz -C /usr/local/bin/ caddy
 
 # Set permission to the file
 chown root:root /usr/local/bin/caddy
@@ -39,7 +39,7 @@ fi
 # Create needed path + permissions
 mkdir /etc/caddy
 chown -R root:root /etc/caddy
-mkdir /etc/ssl/caddy
+mkdir /etc/caddy/ssl
 chown -R root:www-data /etc/caddy/ssl
 chmod 0770 /etc/caddy/ssl
 
