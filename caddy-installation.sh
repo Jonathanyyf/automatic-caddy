@@ -54,7 +54,7 @@ chmod 644 /etc/caddy/Caddyfile
 #chmod 555 /var/www
 
 # Install Caddy as a systemd service
-wget -O /etc/systemd/system/caddy.service "https://raw.githubusercontent.com/lalalolo49/automatic-caddy/master/caddy.service"
+wget -O /etc/systemd/system/caddy.service "https://raw.githubusercontent.com/Jonathanyyf/automatic-caddy/master/caddy.service"
 chown root:root /etc/systemd/system/caddy.service
 chmod 644 /etc/systemd/system/caddy.service
 systemctl daemon-reload
