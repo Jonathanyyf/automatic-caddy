@@ -8,3 +8,8 @@ File localization:
 - /usr/local/bin/caddy
 - /etc/caddy/ (Caddyfile + ssl folder)
 - /systemd/system/caddy.service
+
+# How to use
+```bash
+sudo bash -c "$(curl https://raw.githubusercontent.com/Jonathanyyf/automatic-caddy/master/caddy-installation.sh)
+```
