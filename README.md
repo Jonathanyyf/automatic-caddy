@@ -11,5 +11,5 @@ File localization:
 
 # How to use
 ```bash
-sudo bash -c "$(curl https://raw.githubusercontent.com/Jonathanyyf/automatic-caddy/master/caddy-installation.sh)
+sudo bash -c "$(curl https://raw.githubusercontent.com/Jonathanyyf/automatic-caddy/master/caddy-installation.sh)"
 ```
