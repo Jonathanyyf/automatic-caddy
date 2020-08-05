@@ -11,7 +11,7 @@ if [[ $(id -u) != 0 ]]; then
 fi
 
 # Download caddy
-wget -O /var/tmp/caddy.tar.gz "https://caddyserver.com/download/linux/amd64?license=personal&telemetry=off"
+wget -O /var/tmp/caddy.tar.gz "https://caddyserver.com/api/download?os=linux&arch=amd64&idempotency=83215407744274"
 
 # tar decompress 'caddy' only to '/usr/local/bin/'
 tar xvf /var/tmp/caddy.tar.gz -C /usr/local/bin/ caddy
